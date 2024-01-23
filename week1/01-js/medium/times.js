@@ -19,7 +19,7 @@ function calculateTime(n) {
 
   let end = Date.now();
 
-  return start - end;
+  return end - start;
 }
 
 console.log("Execution Time: " + calculateTime(100) + "ms");
