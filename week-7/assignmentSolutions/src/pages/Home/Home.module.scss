@@ -1,0 +1,23 @@
+
+.home{
+   
+    position: absolute;
+    top: 50px;
+    left: 550px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem 1rem;
+    margin: 2rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    font-weight: 400;
+}
