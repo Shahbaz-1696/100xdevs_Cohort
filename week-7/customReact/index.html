@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Custom React</title>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script>
+            const data = {
+                href: "https://www.google.com",
+                target: "blank",
+            }
+
+            function renderHTML(html) {
+                const htmlElement = document.createElement(html);
+                return htmlElement;
+            }
+
+            function customRender() {
+                document.getElementById("root").innerHTML = "";
+                const anchor = renderHTML("a");
+                anchor.innerHTML = "Click me to Visit Google";
+                anchor.setAttribute("href", `${data.href}`);
+                anchor.setAttribute("target", `${data.target}`);
+                document.getElementById("root").appendChild(anchor);
+            }
+
+            customRender();
+        </script>
+    </body>
+</html>

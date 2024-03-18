@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import { Home, Profile, ColorChanger, CustomReact, ParaGenerator, GithubCard, Login, BirthdayWish } from "./pages";
+import { Home, Profile, ColorChanger, ParaGenerator, GithubCard, Login, BirthdayWish } from "./pages";
 
 
 
@@ -12,7 +12,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/color-changer" element={<ColorChanger />} />
-        <Route path="/custom-react" element={<CustomReact />} />
         <Route path="/para-generator" element={<ParaGenerator />} />
         <Route path="/github-card" element={<GithubCard />} />
         <Route path="login-otp" element={<Login />} />

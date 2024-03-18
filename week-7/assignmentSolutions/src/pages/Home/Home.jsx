@@ -15,20 +15,17 @@ const Home = () => {
             navigate("/color-changer");
         }}>Assignment-2</button>
         <button className={classes.button} onClick={() => {
-            navigate("/custom-react");
+            navigate("/para-generator");
         }}>Assignment-3</button>
         <button className={classes.button} onClick={() => {
-            navigate("/para-generator");
+            navigate("/github-card");
         }}>Assignment-4</button>
         <button className={classes.button} onClick={() => {
-            navigate("/github-card");
+            navigate("/login-otp");
         }}>Assignment-5</button>
         <button className={classes.button} onClick={() => {
-            navigate("/login-otp");
-        }}>Assignment-6</button>
-        <button className={classes.button} onClick={() => {
             navigate("/birthday-wish");
-        }}>Assignment-7</button>
+        }}>Assignment-6</button>
     </div>
 
   )

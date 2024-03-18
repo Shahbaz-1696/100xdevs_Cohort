@@ -14,7 +14,7 @@ const Profile = () => {
     <div className={classes.main}>
       <div className={classes.cardTop}></div>
       <div className={classes.image}>
-        <img src="../../../public/profile_pic.png" alt="Image" width={80} height={80} />
+        <img src="../../../profile_pic.png" alt="Image" width={80} height={80} />
       </div>
       <div className={classes.info}>
         <h2 className={classes.name}>{user.name}</h2>
