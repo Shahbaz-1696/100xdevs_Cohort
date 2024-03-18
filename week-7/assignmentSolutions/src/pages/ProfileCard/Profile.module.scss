@@ -1,0 +1,81 @@
+.main {
+  background-color: #fff;
+  width: 500px;
+  height: 500px;
+  border: none;
+  border-radius: 20px;
+  position: relative;
+  top: 100px;
+  left: 450px;
+
+
+ .cardTop {
+    background-color: aqua;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 200px;
+ }
+
+ .image {
+    color: black;
+    position: absolute;
+    top: 150px;
+    left: 210px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #fff;
+
+ }
+
+ .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    margin-top: 50px;
+
+    .name {
+        color: black;
+        margin: 10px;
+    }
+
+    .age {
+        color: grey;
+        font-size: 3rem;
+    }
+ }
+
+ .location {
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+ }
+
+ .breakLine {
+    border: 1px solid #D3D3D3;
+ }
+
+ .details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    
+    .followers {
+        color: black;
+       
+    }
+
+    .likes {
+        color: black;
+   
+    }
+
+    .photos {
+        color: black;
+
+    }
+ }
+}
