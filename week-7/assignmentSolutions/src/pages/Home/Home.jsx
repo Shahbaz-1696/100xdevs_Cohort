@@ -21,11 +21,8 @@ const Home = () => {
             navigate("/github-card");
         }}>Assignment-4</button>
         <button className={classes.button} onClick={() => {
-            navigate("/login-otp");
-        }}>Assignment-5</button>
-        <button className={classes.button} onClick={() => {
             navigate("/birthday-wish");
-        }}>Assignment-6</button>
+        }}>Assignment-5</button>
     </div>
 
   )

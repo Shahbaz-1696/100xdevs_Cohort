@@ -9,7 +9,7 @@ const GithubCard = () => {
 
   useEffect(() => {
     axios.get(api).then((response) => setRes(() => response.data));
-  }, []);
+  }, [api]);
 
   if(res) {
     return (
