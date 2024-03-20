@@ -1,0 +1,56 @@
+.main {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin-left: 450px;
+
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .input{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        input{
+         background-color: black;
+         color: #fff;
+         border: 2px solid #fff;
+         border-radius: 10px;
+         padding: 20px;
+         width: 20px;
+         margin-left: 30px;
+         font-size: 20px;
+         text-align: center;
+        }
+         ::placeholder{
+             color: #fff;
+             font-size: 20px;
+         }
+     }
+ 
+
+    button{
+        background-color: black;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        margin: 50px 220px;
+    }
+
+    .otp{
+        margin-left: 200px;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        width: 130px;
+        padding: 5px;
+    }
+}

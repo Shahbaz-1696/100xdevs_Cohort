@@ -1,0 +1,43 @@
+.main{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin-left: 450px;
+
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .input{
+       input{
+        background-color: black;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        padding: 20px;
+        width: 200px;
+        margin-left: 120px;
+        font-size: 20px;
+       }
+        ::placeholder{
+            color: #fff;
+            font-size: 20px;
+        }
+    }
+
+    button{
+        background-color: black;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        margin: 50px 180px;
+    }
+}
