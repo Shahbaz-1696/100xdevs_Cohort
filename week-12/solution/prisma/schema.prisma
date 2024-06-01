@@ -12,3 +12,25 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+model Survey {
+  id Int @id @default(autoincrement())
+  title String
+  questions Questions[]
+}
+
+model Questions {
+  id Int @id @default(autoincrement())
+  text String
+  surveyId Int
+  survey Survey @relation(fields: [surveyId], references: [id])
+  options Options[]
+}
+
+model Options {
+  id Int @id @default(autoincrement())
+  text String
+  vote Int @default(0)
+  questionId Int
+  question Questions @relation(fields: [questionId], references: [id])
+}
